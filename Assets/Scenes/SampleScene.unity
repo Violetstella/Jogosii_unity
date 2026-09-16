@@ -297,6 +297,39 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &9420086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9420087}
+  m_Layer: 0
+  m_Name: Pessoa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9420087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9420086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8827, y: 1.442, z: 0.8827}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1940495554}
+  - {fileID: 498319440}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &55371531
 Mesh:
   m_ObjectHideFlags: 0
@@ -667,7 +700,7 @@ GameObject:
   - component: {fileID: 91860917}
   - component: {fileID: 91860916}
   - component: {fileID: 91860915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +728,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2133510182}
+  m_Mesh: {fileID: 1639784374}
 --- !u!33 &91860916
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -34765,7 +34798,7 @@ GameObject:
   - component: {fileID: 134071218}
   - component: {fileID: 134071217}
   - component: {fileID: 134071216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35299,7 +35332,7 @@ GameObject:
   - component: {fileID: 305509742}
   - component: {fileID: 305509741}
   - component: {fileID: 305509740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35327,7 +35360,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 451973150}
+  m_Mesh: {fileID: 1551596788}
 --- !u!33 &305509741
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -69469,12 +69502,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 498319440}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -69534,7 +69567,7 @@ GameObject:
   - component: {fileID: 339029388}
   - component: {fileID: 339029387}
   - component: {fileID: 339029386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69562,7 +69595,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1307827}
+  m_Mesh: {fileID: 531781926}
 --- !u!33 &339029387
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -70373,7 +70406,7 @@ GameObject:
   - component: {fileID: 459025490}
   - component: {fileID: 459025489}
   - component: {fileID: 459025488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70401,7 +70434,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1725404705}
+  m_Mesh: {fileID: 1185319784}
 --- !u!33 &459025489
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -70729,7 +70762,7 @@ GameObject:
   - component: {fileID: 486568231}
   - component: {fileID: 486568230}
   - component: {fileID: 486568229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Torus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82429,7 +82462,7 @@ GameObject:
   - component: {fileID: 496563083}
   - component: {fileID: 496563082}
   - component: {fileID: 496563081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82457,7 +82490,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1440013238}
+  m_Mesh: {fileID: 2133510182}
 --- !u!33 &496563082
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -116513,6 +116546,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &498319439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498319440}
+  m_Layer: 0
+  m_Name: CameraPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &498319440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498319439}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8827, y: 0.55799997, z: -0.8827}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 330585546}
+  m_Father: {fileID: 9420087}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &515410684
 GameObject:
   m_ObjectHideFlags: 0
@@ -116525,7 +116590,7 @@ GameObject:
   - component: {fileID: 515410687}
   - component: {fileID: 515410686}
   - component: {fileID: 515410685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117173,7 +117238,7 @@ GameObject:
   - component: {fileID: 788601804}
   - component: {fileID: 788601803}
   - component: {fileID: 788601802}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117201,7 +117266,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1551596788}
+  m_Mesh: {fileID: 1969201753}
 --- !u!33 &788601803
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -151498,7 +151563,7 @@ GameObject:
   - component: {fileID: 919475259}
   - component: {fileID: 919475258}
   - component: {fileID: 919475257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151526,7 +151591,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 531781926}
+  m_Mesh: {fileID: 542468898}
 --- !u!33 &919475258
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -151854,7 +151919,7 @@ GameObject:
   - component: {fileID: 921160448}
   - component: {fileID: 921160447}
   - component: {fileID: 921160446}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151882,7 +151947,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 405926429}
+  m_Mesh: {fileID: 1660036972}
 --- !u!33 &921160447
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -152210,7 +152275,7 @@ GameObject:
   - component: {fileID: 937678556}
   - component: {fileID: 937678555}
   - component: {fileID: 937678554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152238,7 +152303,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 542468898}
+  m_Mesh: {fileID: 1408229635}
 --- !u!33 &937678555
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -152566,7 +152631,7 @@ GameObject:
   - component: {fileID: 956178936}
   - component: {fileID: 956178935}
   - component: {fileID: 956178934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152594,7 +152659,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2128055558}
+  m_Mesh: {fileID: 1307827}
 --- !u!33 &956178935
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -152922,7 +152987,7 @@ GameObject:
   - component: {fileID: 974346326}
   - component: {fileID: 974346325}
   - component: {fileID: 974346324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153677,7 +153742,7 @@ GameObject:
   - component: {fileID: 1023938525}
   - component: {fileID: 1023938524}
   - component: {fileID: 1023938523}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153705,7 +153770,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 451973150}
 --- !u!33 &1023938524
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -187775,7 +187840,7 @@ GameObject:
   - component: {fileID: 1071338496}
   - component: {fileID: 1071338495}
   - component: {fileID: 1071338494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188131,7 +188196,7 @@ GameObject:
   - component: {fileID: 1157677550}
   - component: {fileID: 1157677549}
   - component: {fileID: 1157677548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188610,7 +188675,7 @@ GameObject:
   - component: {fileID: 1230144726}
   - component: {fileID: 1230144725}
   - component: {fileID: 1230144724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189322,7 +189387,7 @@ GameObject:
   - component: {fileID: 1389332205}
   - component: {fileID: 1389332204}
   - component: {fileID: 1389332203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189350,7 +189415,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1933655816}
+  m_Mesh: {fileID: 1502373039}
 --- !u!33 &1389332204
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -189678,7 +189743,7 @@ GameObject:
   - component: {fileID: 1390694850}
   - component: {fileID: 1390694849}
   - component: {fileID: 1390694848}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189706,7 +189771,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 681583096}
+  m_Mesh: {fileID: 1725404705}
 --- !u!33 &1390694849
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -190568,7 +190633,7 @@ GameObject:
   - component: {fileID: 1508658429}
   - component: {fileID: 1508658428}
   - component: {fileID: 1508658427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192468,7 +192533,7 @@ GameObject:
   - component: {fileID: 1542777903}
   - component: {fileID: 1542777902}
   - component: {fileID: 1542777901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Torus (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204346,7 +204411,7 @@ GameObject:
   - component: {fileID: 1590286573}
   - component: {fileID: 1590286572}
   - component: {fileID: 1590286571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Torus (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216580,7 +216645,7 @@ GameObject:
   - component: {fileID: 1888101546}
   - component: {fileID: 1888101545}
   - component: {fileID: 1888101544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216608,7 +216673,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1502373039}
+  m_Mesh: {fileID: 1298552217}
 --- !u!33 &1888101545
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -216936,7 +217001,7 @@ GameObject:
   - component: {fileID: 1914489942}
   - component: {fileID: 1914489941}
   - component: {fileID: 1914489940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216964,7 +217029,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1307827}
+  m_Mesh: {fileID: 681583096}
 --- !u!33 &1914489941
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -217292,7 +217357,7 @@ GameObject:
   - component: {fileID: 1931575446}
   - component: {fileID: 1931575445}
   - component: {fileID: 1931575444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217320,7 +217385,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1313190427}
+  m_Mesh: {fileID: 2128055558}
 --- !u!33 &1931575445
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -217825,8 +217890,11 @@ GameObject:
   - component: {fileID: 1940495552}
   - component: {fileID: 1940495551}
   - component: {fileID: 1940495550}
+  - component: {fileID: 1940495557}
+  - component: {fileID: 1940495556}
+  - component: {fileID: 1940495555}
   m_Layer: 0
-  m_Name: Pessoa
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217859,7 +217927,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!136 &1940495551
@@ -217950,13 +218018,108 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940495549}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.57143, y: 0.4, z: 0.57143}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 9420087}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1940495555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940495549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb84f4e7fe05286459d9754598765f10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  walkSpeed: 5
+  sprintSpeed: 8
+  jumpForce: 12
+  groundDrag: 5
+  airMultiplier: 0.4
+  rotationSmoothTime: 0.1
+  gravityScale: 2.5
+  maxFallSpeed: 25
+  fallMultiplier: 2.5
+  fastFallMultiplier: 3.5
+  enableFastFall: 1
+  jumpCutMultiplier: 2
+  coyoteTime: 0.1
+  maxJumps: 2
+  flipRotationSpeed: 1440
+  cameraPivot: {fileID: 498319440}
+  cameraTransform: {fileID: 330585546}
+  cameraDistance: 5
+  cameraHeight: 2
+  mouseSensitivity: 2
+  minVerticalAngle: -30
+  maxVerticalAngle: 60
+  cameraSmoothTime: 0.1
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  cameraCollisionRadius: 0.2
+  cameraMinDistance: 0.5
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  groundCheckDistance: 0.8
+  groundCheckRadius: 0.3
+--- !u!136 &1940495556
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940495549}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!54 &1940495557
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940495549}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!43 &1969201753
 Mesh:
   m_ObjectHideFlags: 0
@@ -218327,7 +218490,7 @@ GameObject:
   - component: {fileID: 2090226389}
   - component: {fileID: 2090226388}
   - component: {fileID: 2090226387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218355,7 +218518,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1969201753}
+  m_Mesh: {fileID: 1440013238}
 --- !u!33 &2090226388
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -252771,11 +252934,9 @@ Mesh:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 515410688}
-  - {fileID: 1940495554}
   - {fileID: 1508658432}
   - {fileID: 1157677553}
   - {fileID: 134071221}
@@ -252802,3 +252963,4 @@ SceneRoots:
   - {fileID: 486568234}
   - {fileID: 1542777906}
   - {fileID: 1590286576}
+  - {fileID: 9420087}
